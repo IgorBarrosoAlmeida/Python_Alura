@@ -11,5 +11,11 @@ def jogar():
     print("   Bem vindo ao jogo da forca!!   ")
     print("-----------------------------------")
 
+    enforcou = False
+    acertou = False
+
+    while((not enforcou) and (not acertou)):
+        print("Jogando...")
+
 if(__name__ == "__main__"):
     jogar()
